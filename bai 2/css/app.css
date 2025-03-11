@@ -12,11 +12,15 @@ body{
     max-width: 1200px;
     margin: auto;
 }
-nav{
+.abc{
+    background-color: seashell;
+    border: 4px solid royalblue;
+    margin: 4px;
 }
 .heading{
     text-align: left;
     margin-left: 15px;
+    margin-top: 2px;
 }
 h3{
     padding-left: 5px;
@@ -39,6 +43,10 @@ ul.product li:hover{
     opacity: 0.7;
     background-color: rgb(182, 193, 202);
 }
+/* ul.product li .product-thumb{
+    width: 289.61px;
+    height: 182.9px;
+} */
 ul.product li img{
     width: 100%;
     height: auto;
@@ -57,7 +65,7 @@ ul.product li .product-info .product-cat{
     font-weight: 600;
 }
 ul.product li .product-info .product-name, .product-price{
-    font-size: 14px;
+    font-size: 12px;
 }
 ul.product li .product-info .product-price .form a{
     display: inline-block;
